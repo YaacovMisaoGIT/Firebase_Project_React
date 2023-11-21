@@ -1,0 +1,30 @@
+/* .video-container {
+    position: relative;
+    width: 560px;  
+    height: 315px;  
+  }
+  
+  .video-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(222, 212, 228, 0.5);  
+    color: white;
+    padding: 10px;
+    display: none;
+  }
+  
+  .video-container:hover .video-info {
+    display: block;
+  } */
+
+  /* App.css or your styling file */
+.number-item {
+  background-color: lightblue;
+  
+  width: 80px;
+  margin: 2px;
+}
+.number-item:hover{
+  cursor: pointer;
+}
