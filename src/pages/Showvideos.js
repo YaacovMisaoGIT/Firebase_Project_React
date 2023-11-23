@@ -23,12 +23,11 @@ export function Showvideos() {
 
   const playVideo = (videoLink) => {
     setSelectedVideo(videoLink);
-    // navigate('/show-videos');  
   };
 
-  const goToUpload = () => {
-    navigate('/upload-videos');  
-  };
+  // const goToUpload = () => {
+  //   navigate('/upload-videos');  
+  // };
 
   return (
     <div className="App">
@@ -55,7 +54,7 @@ export function Showvideos() {
         </div>
       )}
 
-        <button onClick={goToUpload}>Go to UploadVideos</button>
+        {/* <button onClick={goToUpload}>Go to UploadVideos</button> */}
 
     </div>
   );
